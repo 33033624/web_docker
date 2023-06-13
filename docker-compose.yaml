@@ -1,0 +1,16 @@
+version: "3.8"
+
+services:
+  font_mock:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: font_mock
+    ports:
+      - "50001:80"
+    volumes:
+      - '/etc/localtime:/etc/localtime:ro'
+    networks:
+      envoymesh:
+networks:
+  envoymesh: {}
