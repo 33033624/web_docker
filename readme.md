@@ -1,6 +1,6 @@
 # web_docker配置文件
-- 先进行docker安装
-- 安装成功后将docker配置文件copy到项目中
+- docker安装
+- 将docker配置文件copy到项目中
 - 执行docker编排
   ```
   docker-compose up
